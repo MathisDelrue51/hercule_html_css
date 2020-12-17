@@ -156,8 +156,7 @@ body {
 
 .card {
     margin-bottom: 2rem;
-    width: 49%;
-    
+    width: 49%;    
 }
 
 .card-title {
@@ -176,12 +175,20 @@ body {
 }
 
 .card-footer {
-    margin: 2rem 1rem;
+    margin: 3rem 1rem;
+    color: #f39c12;
+    font-weight: bold; 
+
 }
 
 .btn {
     padding: 1rem 2rem;
     font-size: 1.2em;
+    border: solid 5px #f39c12;
+    border-radius: 3rem; 
+    margin-right: 1.2rem;
+
+
 }
 
 .footer {
