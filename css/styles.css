@@ -62,8 +62,12 @@ body {
     border-radius: 10px;
     margin: 5px 0 5px 0;
     padding: 1rem 2.5rem 1rem 1rem;
-
     text-align: left;
+    transition: background 300ms ; 
+}
+
+.nav-item:hover{
+    background-color: #f39c12;
 }
 
 .page {
@@ -177,8 +181,7 @@ body {
 .card-footer {
     margin: 3rem 1rem;
     color: #f39c12;
-    font-weight: bold; 
-
+    font-weight: bold;
 }
 
 .btn {
@@ -186,10 +189,15 @@ body {
     font-size: 1.2em;
     border: solid 5px #f39c12;
     border-radius: 3rem; 
-    margin-right: 1.2rem;
-
-
+    margin-right: 1.2rem;   
+    transition: color 300ms, background 300ms ; 
 }
+
+.btn:hover{
+    background-color: #f39c12;
+    color: #fff;
+}
+
 
 .footer {
     background: #111;
