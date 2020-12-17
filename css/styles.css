@@ -83,6 +83,20 @@ body {
     width: 50%;
     font-size: 3em;
     margin-right: 2rem;
+    border-top: solid 2px #f39c12;
+    
+}
+
+.content-titles h1,
+.content-titles h2 {
+    font-weight: bold;
+    padding: 1rem 0 1rem 1rem;      
+    text-align: right;
+}
+
+.content-titles h2 {
+    color: #968e8e;
+    margin-bottom: 2em;
 }
 
 .content-title {
