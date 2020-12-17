@@ -189,7 +189,7 @@ body {
 
 .card-content p {
     font-size: 1.1em;
-    line-height: 1.5;
+    line-height: 1.5;     
 }
 
 .card-footer {
@@ -298,5 +298,9 @@ body {
 
     .nav-item-link {
         margin-bottom: 0;
+    }
+
+    .card-footer {
+        text-align: center;       
     }
 }
